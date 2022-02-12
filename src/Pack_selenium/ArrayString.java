@@ -5,7 +5,7 @@ public class ArrayString {
 	
 	String [] ipl= {"csk","mi","rcb"};
 	
-	for(String s:ipl)
+	for(String s:ipl) //simple java string loop
 		System.out.println(s);
 	}
 
