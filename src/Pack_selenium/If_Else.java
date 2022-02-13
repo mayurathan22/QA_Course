@@ -1,5 +1,7 @@
 package Pack_selenium;
 
+import java.util.ArrayList;
+
 public class If_Else {
 
 	public static void main(String[] args) {
@@ -18,7 +20,19 @@ public class If_Else {
 			}
 		}
 		
-
+		ArrayList <String> a = new ArrayList <String> ();
+		System.out.println();
+		a.add("csk");
+		a.add("mi");
+		a.add("rcb");
+		a.add("csk");
+		a.remove(3);
+		
+		
+		System.out.println(a.get(0));
+		System.out.println(a.get(1));
+		System.out.println(a.get(2));
+//		System.out.println(a.get(3));
 	}
 
 }
