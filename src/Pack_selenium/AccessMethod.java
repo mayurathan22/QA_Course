@@ -6,11 +6,15 @@ public class AccessMethod {
 		// TODO Auto-generated method stub
 
 		AccessMethod a= new AccessMethod();
-		a.PrintData();
+		String mtdString= a.PrintData();
+		System.out.println(mtdString);
+		AccessMethod2 a2 =new AccessMethod2();
+		a2.PrintGetData();
 	}
 	
-	public void PrintData() {
-		System.out.println("this is is Print data method");
+	public String PrintData() {
+		System.out.println("this is is Printdata method");
+		return "Im mayurathan";
 	}
 
 }
