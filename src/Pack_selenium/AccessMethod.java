@@ -10,10 +10,16 @@ public class AccessMethod {
 		System.out.println(mtdString);
 		AccessMethod2 a2 =new AccessMethod2();
 		a2.PrintGetData();
+		PrintStaticData();
 	}
 	
 	public String PrintData() {
 		System.out.println("this is is Printdata method");
+		return "Im mayurathan";
+	}
+	
+	public static String PrintStaticData() {
+		System.out.println("this is is PrintStaticData method");
 		return "Im mayurathan";
 	}
 
