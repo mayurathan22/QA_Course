@@ -10,9 +10,10 @@ public class Locators {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		driver.get("https://github.com/");
-//		driver.findElement(By.id("user_email")).sendKeys("mayu ");
-		driver.findElement(By.className("position-relative mr-3 mb-4 mb-lg-0 d-inline-block")).click();
+		driver.get("https://sso.teachable.com/secure/9521/identity/login");
+		driver.findElement(By.name("email")).sendKeys("mayurathanmahi7@gmail.com ");
+		driver.findElement(By.name("password")).sendKeys("111111");
+		driver.findElement(By.className("p-v-2-xs")).click();
 	}
 
 }
